@@ -1,2 +1,2 @@
 # Vultr-Analytics-App
-Create Vultr Instance on for an Analytics App
+Create Vultr Instance for an Analytics App
