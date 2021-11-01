@@ -2,7 +2,6 @@
 org_identifier                            = "inc"
 project_name                              = "analytics"
 environment                               = "prod"
-vultr_region_name                         = "atl"
 creator                                   = "Terraform"
 create_vultr_resources                    = 1
 
