@@ -19,7 +19,7 @@ notes                                     = ["Access Port 80", "Access Port 443"
 # 3. ssh key variables
 ssh_key_name                              = "instance-ssh-key"
 
-# 6. instance variables
+# 4. instance variables
 region                                    = "ewr"
 plan                                      = "vc2-1c-1gb"
 os_id                                     = "387"     # Ubuntu 20.04 arch x64
