@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DEV: 'no'
-      PROD: 'yes'
+      PROD: 'no'
       PLAN: 'no'
-      APPLY: 'yes'
-      DESTROY: 'no'
+      APPLY: 'no'
+      DESTROY: 'yes'
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       VULTR_API_KEY: ${{ secrets.VULTR_API_KEY }}
       TF_VAR_ssh_key: ${{ secrets.VULTR_SSH_KEY }}
