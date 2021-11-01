@@ -15,10 +15,12 @@ output "vultr_firewall_rule_attributes" {
 output "vultr_ssh_key_attributes" {
   description = "key-value pair attributes of the created ssh key."
   value = vultr_ssh_key.ssh_key
+  sensitive = true
 }
 
 # 4. output: instance
 output "vultr_instance_attributes" {
   description = "key-value pair attributes of the created instance(s)."
   value = vultr_instance.instance
+  sensitive = true
 }
