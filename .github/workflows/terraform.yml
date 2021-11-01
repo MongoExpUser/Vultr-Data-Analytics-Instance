@@ -12,11 +12,11 @@ jobs:
     name: Terraform
     runs-on: ubuntu-latest
     env:
-      DEV: 'yes'
+      DEV: 'no'
       PROD: 'no'
       PLAN: 'no'
       APPLY: 'no'
-      DESTROY: 'yes'
+      DESTROY: 'no'
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       VULTR_API_KEY: ${{ secrets.VULTR_API_KEY }}
       TF_VAR_ssh_key: ${{ secrets.VULTR_SSH_KEY }}
