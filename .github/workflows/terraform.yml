@@ -14,9 +14,9 @@ jobs:
     env:
       DEV: 'yes'
       PROD: 'no'
-      PLAN: 'yes'
-      APPLY: 'yes'
-      DESTROY: 'no'
+      PLAN: 'no'
+      APPLY: 'no'
+      DESTROY: 'yes'
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       VULTR_API_KEY: ${{ secrets.VULTR_API_KEY }}
       TF_VAR_ssh_key: ${{ secrets.VULTR_SSH_KEY }}
