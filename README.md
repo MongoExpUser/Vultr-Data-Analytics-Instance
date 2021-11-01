@@ -1,3 +1,5 @@
+[![CI - Vultr-DA-Instance](https://github.com/MongoExpUser/Vultr-Data-Analytics-Instance/actions/workflows/terraform.yml/badge.svg)](https://github.com/MongoExpUser/Vultr-Data-Analytics-Instance/actions/workflows/terraform.yml)
+
 # Vultr Data Analytics Instance
 
 This repo contains the Terraform module for the deployment  of an **Instance** on Vultr Cloud for a Data Analytics App.
