@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DEV: 'no'
-      PROD: 'no'
+      PROD: 'yes'
       PLAN: 'no'
-      APPLY: 'no'
+      APPLY: 'yes'
       DESTROY: 'no'
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       VULTR_API_KEY: ${{ secrets.VULTR_API_KEY }}
