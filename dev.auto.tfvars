@@ -24,7 +24,6 @@ region                                    = "ewr"
 plan                                      = "vc2-1c-1gb"
 os_id                                     = "387"     # Ubuntu 20.04 arch x64
 #os_id                                    = "270"     # Ubuntu 18.04 arch x64
-script_id                                 = "bda68743-2465-49b9-8930-8f177ba03366"
 enable_ipv6                               = true
 ddos_protection                           = false
 activation_email                          = true
