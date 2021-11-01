@@ -11,10 +11,6 @@ variable "environment" {
   type = string
 }
 
-variable "vultr_region_name" {
-  type = string
-}
-
 variable "creator" {
   description = "Creator of the resource(s): could be e-mail address of creator or simply Terraform."
   type = string
