@@ -12,9 +12,9 @@ jobs:
     name: Terraform
     runs-on: ubuntu-latest
     env:
-      DEV: 'no'
+      DEV: 'yes'
       PROD: 'no'
-      PLAN: 'no'
+      PLAN: 'yes'
       APPLY: 'no'
       DESTROY: 'no'
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
