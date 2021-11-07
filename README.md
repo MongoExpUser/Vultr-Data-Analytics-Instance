@@ -13,7 +13,7 @@ The module deploys  instance(s) in the Vultr Cloud. The following resources are 
                                             
 ## Deploying the Terraform (TF) Module
 
-1) To deploy the module on <strong>```AWS```</strong> via <strong>GitHub Actions</strong> see the following link: <br>
+1) To deploy the module on <strong>```Vultr```</strong> via <strong>GitHub Actions</strong> see the following link: <br>
  <strong><a href="https://github.com/MongoExpUser/Vultr-Data-Analytics-Instance/blob/main/.github/workflows/terraform.yml" rel="nofollow">CI - Vultr-DA-Instance</a></p></strong>
   
 
