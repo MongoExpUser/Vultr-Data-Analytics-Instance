@@ -11,5 +11,14 @@ The module deploys  instance(s) in the Vultr Cloud. The following resources are 
 3)  Vultr SSH KEY
 4)  Vultr Instance(s) (Virtual Machine(s))
                                             
-<br>
-<strong> Copyright © 2021 MongoExpUser. All Rights Reserved. </strong>
+## Deploying the Terraform (TF) Module
+
+1) To deploy the module on <strong>```AWS```</strong> via <strong>GitHub Actions</strong> see the following link: <br>
+ <strong><a href="https://github.com/MongoExpUser/Vultr-Data-Analytics-Instance/blob/main/.github/workflows/terraform.yml" rel="nofollow">CI - Vultr-DA-Instance</a></p></strong>
+  
+
+# License
+
+Copyright © 2015 - present. MongoExpUser
+
+Licensed under the MIT license.
